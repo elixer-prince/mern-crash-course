@@ -17,14 +17,15 @@ Content-Type: application/json
 }
 
 ### Update a product
-PUT http://localhost:5000/api/products/68588dc33e764730bcdfe049
+PUT http://localhost:5000/api/products/682afcb05f3937ef362f18ff
 Content-Type: application/json
 
 {
-  "name": "Updated Product MEOW",
-  "price": 100.00
+  "name": "Product2",
+  "price": 500.99,
+  "image": "example.com/image2"
 }
 
 ### Delete a product
-DELETE http://localhost:5000/api/products/682afca15f3937ef362f18fd
+DELETE http://localhost:5000/api/products/68588dc33e764730bcdfe049
 Content-Type: application/json
